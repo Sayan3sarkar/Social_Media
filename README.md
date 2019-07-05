@@ -1,4 +1,4 @@
-# Social_Media
+# Social Media
 
 [Flask](http://flask.pocoo.org/docs/1.0/), is a web microframework for Python. It is mainly used to for web application development and also API development.
 
