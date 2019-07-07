@@ -19,7 +19,7 @@ We create a [Social Media](https://en.wikipedia.org/wiki/Social_media) website u
 
 7. Logout of their accounts
 
-8. Can reset their account password by receiving a password reset link on their register email
+8. Can reset their account password by receiving a password reset link on their registered email
 
 
 
@@ -40,9 +40,11 @@ In this website we use [Object Relational Mapping](https://searchwindevelopment.
 
 4. [flask-wtf](https://flask-wtf.readthedocs.io/en/stable/) is simple integreation of **Flask** and [WTForms](https://wtforms.readthedocs.io/en/stable/). Provides easily applicable methods for creating web forms and also includes services like prevention against [CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)) attacks, reCAPTCHA, file upload etc.
 
-5.[flask-pillow](https://auth0.com/blog/image-processing-in-python-with-pillow/) is used for image processing tasks in Python. We use it to simply rescale the uploaded profile picture of the user to 125x125 in order to enhance our site performance and effectivelu use our database resources.
+5. [flask-pillow](https://auth0.com/blog/image-processing-in-python-with-pillow/) is used for image processing tasks in Python. We use it to simply rescale the uploaded profile picture of the user to 125x125 in order to enhance our site performance and effectivelu use our database resources.
+
+6. [flask-mail](https://pythonhosted.org/Flask-Mail/) provides the facility of sending mails from our application. In our case, we send password reset links as mails to the recipients.
 
 
 ## Reference
 
-In my personal opinion [Corey Schafer](https://coreyms.com/development/python/python-flask-tutorials-full-series)'s Flask tutorial is better than even Udacity's full stack nano-degree.
+In my personal opinion [Corey Schafer](https://coreyms.com/)'s Flask tutorial is better than even Udacity's full stack nano-degree.
