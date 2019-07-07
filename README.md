@@ -11,13 +11,15 @@ We create a [Social Media](https://en.wikipedia.org/wiki/Social_media) website u
 
 3. Add new posts
 
-4. Delete existent posts specific to that user
+4. Delete or Update existent posts specific to that user
 
 5. Can upload profile picture
 
 6. Can view posts of other users
 
 7. Logout of their accounts
+
+8. Can reset their account password by receiving a password reset link on their register email
 
 
 
@@ -37,6 +39,8 @@ In this website we use [Object Relational Mapping](https://searchwindevelopment.
 3. [flask-bcrypt](https://flask-bcrypt.readthedocs.io/en/latest/) is a Flask extension that provides bcrypt hashing utilities for our application. Used to hash user passwords before storing to database
 
 4. [flask-wtf](https://flask-wtf.readthedocs.io/en/stable/) is simple integreation of **Flask** and [WTForms](https://wtforms.readthedocs.io/en/stable/). Provides easily applicable methods for creating web forms and also includes services like prevention against [CSRF](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)) attacks, reCAPTCHA, file upload etc.
+
+5.[flask-pillow](https://auth0.com/blog/image-processing-in-python-with-pillow/) is used for image processing tasks in Python. We use it to simply rescale the uploaded profile picture of the user to 125x125 in order to enhance our site performance and effectivelu use our database resources.
 
 
 ## Reference
