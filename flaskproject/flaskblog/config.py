@@ -10,4 +10,4 @@ class Config:
 	MAIL_PORT = 587
 	MAIL_USE_TLS = True
 	MAIL_USERNAME = os.environ.get('EMAIL_USER')
-	MAIL_PASSWORD = 'gvlhxicletbhxhts'#You have to enable 2 step verification in your google account and then create an app password for application named 'app'. You have to use that instead of the *** mentioned in the password
+	MAIL_PASSWORD = '****'#You have to enable 2 step verification in your google account and then create an app password for application named 'app'. You have to use that instead of the *** mentioned in the password
