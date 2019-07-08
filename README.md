@@ -45,6 +45,11 @@ In this website we use [Object Relational Mapping](https://searchwindevelopment.
 6. [flask-mail](https://pythonhosted.org/Flask-Mail/) provides the facility of sending mails from our application. In our case, we send password reset links as mails to the recipients.
 
 
+## Designing
+
+For the CSS, I used some [custom styles](https://github.com/Sayan3sarkar/Social_Media/blob/master/flaskproject/flaskblog/static/main.css) along with some [Bootstrap](https://github.com/Sayan3sarkar/Social_Media/blob/master/flaskproject/flaskblog/static/main.css) styles to give our website a sophisticated look
+
+
 ## Reference
 
 In my personal opinion [Corey Schafer](https://coreyms.com/)'s Flask tutorial is better than even Udacity's full stack nano-degree.
